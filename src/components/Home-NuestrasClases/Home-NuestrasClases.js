@@ -1,22 +1,28 @@
-import React from 'react';
-import './Home-NuestrasClases.css'
+import React from "react";
+import "./Home-NuestrasClases.css";
+import clases1 from "./clases.jpg";
 
-function ImageTextBox({ imageUrl }) {
-  return (
-    <div className="image-text-box">
-      <div className="image-container">
-        <img src={imageUrl} alt="Imagen" />
-      </div>
-      <div className="text-container">
-        <h2>Nuestras Clases</h2>
-        <div>
-      <p>Tenemos muchas clases para vos. ¡Anímate a probarlas todas!</p>
-      <p>Nuestro equipo de profesores te espera con ganas de explorar tu movimiento y vivir momentos únicos.</p>
-      <button className="my-button">Clases</button>
-      </div>
-      </div>
-    </div>
-  );
+function ImageTextBox() {
+	return (
+		<div className="image-text-box-clases">
+			<div className="image-container">
+				<img src={clases1} alt="Imagen" />
+			</div>
+			<div className="text-container-clases">
+				<h2 className="titleClases">NUESTRAS CLASES</h2>
+				<div>
+					<p className="txtClases">
+						Tenemos muchas clases para vos. ¡Anímate a probarlas todas!
+					</p>
+					<p className="txtClases">
+						Nuestro equipo de profesores te espera con ganas de explorar tu
+						movimiento y vivir momentos únicos.
+					</p>
+				</div>{" "}
+				<button className="btnClases">Conocé más</button>
+			</div>
+		</div>
+	);
 }
 
 export default ImageTextBox;

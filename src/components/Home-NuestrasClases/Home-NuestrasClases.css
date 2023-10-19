@@ -1,44 +1,79 @@
-.image-text-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-  background-color: #FB3435;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+.image-text-box-clases {
+	display: grid;
+	grid-template-columns: 58% auto;
+	grid-template-rows: 100%;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	background-color: #fb3435;
+	height: 70vh;
+	margin-bottom: 4%;
 }
 
 .image-container {
-  flex: 1;
-  padding: 10px;
+	flex: 1;
+	height: 110%;
+	width: 100%;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	width: 100%;
+	max-height: 100%;
+	padding: 5%;
 }
 
-.text-container {
-  flex: 1;
-  padding: 10px;
-  text-align: center;
+.text-container-clases {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	height: 100%;
 }
 
-h2 {
-  font-size: 24px;
-  margin: 0;
+.titleClases {
+	color: #faf3ea;
+	text-align: center;
+	font-family: "Poppins";
+	font-size: xx-large;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 15%;
 }
 
-p {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
+.txtClases {
+	color: #fad8d8;
+	font-family: "Poppins";
+	font-size: large;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%; /* 36px */
+	margin-bottom: 5%;
+	text-align: left;
 }
 
-.my-button {
-  background-color: black;
-  color: red;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px; /* Agrega esta línea para puntas redondeadas */
+.btnClases {
+	background-color: black;
+	width: fit-content;
+	color: red;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	color: #a02b2b;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 24px */
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
 }
