@@ -6,7 +6,7 @@ function ImageTextBox() {
 	return (
 		<div className="image-text-box-clases">
 			<div className="image-container">
-				<img src={clases1} alt="Imagen" />
+				<img className="imgClases" src={clases1} alt="Imagen" />
 			</div>
 			<div className="text-container-clases">
 				<h2 className="titleClases">NUESTRAS CLASES</h2>

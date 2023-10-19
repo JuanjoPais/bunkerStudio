@@ -67,18 +67,21 @@
 	-khtml-user-select: none;
 	-webkit-tap-highlight-color: transparent;
 	margin-left: -10px;
+	width: 100%;
 }
 
 .embla__slide {
 	position: relative;
 	min-width: 100%;
 	padding-left: 10px;
+	width: 100%;
 }
 
 .embla__slide__inner {
 	position: relative;
 	overflow: hidden;
 	height: 76vh;
+	width: 100%;
 }
 
 .embla__slide__img {
@@ -86,10 +89,10 @@
 	display: block;
 	top: 50%;
 	left: 50%;
-	width: auto;
+	width: 100%;
 	min-height: 100%;
 	min-width: 100%;
-	max-width: none;
+	max-width: 100%;
 	transform: translate(-50%, -50%);
 	max-width: 100%;
 	max-height: 100%;

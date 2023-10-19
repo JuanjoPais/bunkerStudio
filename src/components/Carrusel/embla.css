@@ -7,6 +7,7 @@
 	margin-bottom: 2%;
 	padding-top: 4%;
 	height: 70vh;
+	width: 100%;
 }
 
 .embla__viewport {
@@ -32,6 +33,7 @@
 	-webkit-tap-highlight-color: transparent;
 	margin-left: -10px;
 	height: max-content;
+	width: 100%;
 }
 
 .embla__slide {
@@ -39,12 +41,14 @@
 	min-width: 100%;
 	padding-left: 10px;
 	height: max-content;
+	width: 100%;
 }
 
 .embla__slide__inner {
 	position: relative;
 	overflow: hidden;
 	height: 70vh;
+	width: 100%;
 }
 
 .embla__slide__img {
@@ -52,12 +56,12 @@
 	display: block;
 	top: 50%;
 	left: 50%;
-	width: auto;
+	width: 100%;
 	min-height: 100%;
 	min-width: 100%;
 	transform: translate(-50%, -50%);
-
 	height: 100%;
+	padding: 0;
 }
 
 .embla__button {
