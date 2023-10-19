@@ -1,0 +1,14 @@
+.App {
+	text-align: center;
+
+	width: 100%;
+	height: max-content;
+	color: white;
+	font-size: xx-large;
+}
+
+.txt {
+	font-size: xx-large;
+	color: black;
+	height: 50vh;
+}
