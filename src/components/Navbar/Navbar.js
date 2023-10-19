@@ -15,8 +15,8 @@ function NavigationBar() {
 			variant="dark"
 			className="navBar"
 		>
-			<Container>
-				<Navbar.Brand>
+			<Container className="containerNav">
+				<Navbar.Brand className="navBarBrand">
 					<NavLink to={"/"}>
 						<img className="logo" src={log} alt="logo"></img>
 					</NavLink>
@@ -24,7 +24,7 @@ function NavigationBar() {
 
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" className="tog" />
 				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="me-auto containerNav">
+					<Nav className="me-auto containerLinks">
 						<NavLink className="palabras" to={"/Clases"}>
 							CLASES
 						</NavLink>

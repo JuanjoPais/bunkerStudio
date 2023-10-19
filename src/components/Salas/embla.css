@@ -42,6 +42,8 @@
 
 .embla {
 	position: relative;
+	height: 80vh;
+	margin-bottom: 6%;
 }
 
 .embla__viewport {
@@ -76,7 +78,7 @@
 .embla__slide__inner {
 	position: relative;
 	overflow: hidden;
-	height: 70vh;
+	height: 76vh;
 }
 
 .embla__slide__img {
