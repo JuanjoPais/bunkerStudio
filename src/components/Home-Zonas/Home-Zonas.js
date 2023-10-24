@@ -22,7 +22,7 @@ function ImageTextBox() {
 				<button className="btnZonas">Conocé más</button>
 			</div>
 			<div className="image-container">
-				<img src={clases1} alt="Imagen" />
+				<img className="imgZonas" src={clases1} alt="Imagen" />
 			</div>
 		</div>
 	);
