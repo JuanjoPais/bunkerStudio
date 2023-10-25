@@ -8,13 +8,7 @@ import log from "../../log.png";
 
 function NavigationBar() {
 	return (
-		<Navbar
-			collapseOnSelect
-			expand="lg"
-			bg="dark"
-			variant="dark"
-			className="navBar"
-		>
+		<Navbar collapseOnSelect expand="lg" className="navBar">
 			<Container className="containerNav">
 				<Navbar.Brand className="navBarBrand">
 					<NavLink to={"/"}>
