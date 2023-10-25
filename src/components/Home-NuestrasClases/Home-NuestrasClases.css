@@ -85,3 +85,13 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@media (max-width: 800px) {
+	.txtClases {
+		font-size: medium;
+		line-height: 100%; /* 36px */
+	}
+	.titleClases {
+		font-size: large;
+	}
+}

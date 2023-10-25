@@ -13,11 +13,7 @@ function ImageTextBox() {
 						por la moda masculina. Si tienes estilo, confianza y talento, únete
 						a nuestra pasarela y muestra nuestra increíble lencería.
 					</p>
-					<p className="txtZonas">
-						Completa nuestro formulario de contacto y envíanos tus detalles para
-						tener la oportunidad de formar parte de una experiencia emocionante
-						en la moda masculina. ¡Esperamos conocerte pronto!
-					</p>
+					<p className="txtZonas">¡Esperamos conocerte pronto!</p>
 				</div>{" "}
 				<button className="btnZonas">Conocé más</button>
 			</div>

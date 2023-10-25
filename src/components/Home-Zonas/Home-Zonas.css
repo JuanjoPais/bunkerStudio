@@ -82,3 +82,13 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@media (max-width: 800px) {
+	.txtZonas {
+		font-size: medium;
+		line-height: 100%; /* 36px */
+	}
+	.titleZonas {
+		font-size: large;
+	}
+}
